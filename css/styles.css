@@ -24,8 +24,7 @@ html {
 
 /* Nav Background */
 
-.navbar,
-.container-color {
+.navbar,.container-color {
   background-color: #1a5336;
 }
 
@@ -74,8 +73,8 @@ html {
   font-size: 15px;
   height: auto;
   max-height: 400px;
-  width: 270px;
   overflow-x: hidden;
+  width: 270px;
 }
 
 /* Secondary Nav Styles *END* */
@@ -85,17 +84,6 @@ html {
 
 .welcome-tag {
   font-size: 15px;
-  font-weight: 300;
-}
-
-.app-header {
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-.app-lead {
-  font-size: 20px;
   font-weight: 300;
 }
 
@@ -124,15 +112,15 @@ input[value="Social Insurance Number*"] {
 
 .btn-tip {
   background: #fff;
-  color: #2aa221;
-  width: 16px;
-  height: 16px;
-  padding: 0 2px;
   border: 1px solid #2aa221;
   border-radius: 35px;
-  margin: 34px 0 0 -8px;
+  color: #2aa221;
   font-size: 11px;
+  height: 16px;
+  margin: 34px 0 0 -8px;
+  padding: 0 2px;
   text-align: center;
+  width: 16px;
 }
 
 .cancel-button {
@@ -159,6 +147,17 @@ input[value="Social Insurance Number*"] {
   font-size: 16px;
 }
 
+.app-header {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.app-lead {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 /* Application Identification Section Style *END* */
 
 
@@ -176,8 +175,8 @@ hr {
 }
 
 h1.footer-lead {
-  font-weight: 100;
   font-size: 28px;
+  font-weight: 100;
 }
 
 .contact-us {
@@ -196,13 +195,13 @@ h1.footer-lead {
 }
 
 .btn-circle {
-  width: 60px;
-  height: 60px;
-  padding: 10px 8px;
   border: 2px solid #2aa221;
   border-radius: 35px;
   font-size: 12px;
+  height: 60px;
+  padding: 10px 8px;
   text-align: center;
+  width: 60px;
 }
 
 /* Footer Style *END* */
@@ -244,8 +243,8 @@ h1.footer-lead {
   }
 
   .mobile-chair {
-    width: 70%;
     margin: 0 auto;
+    width: 70%;
   }
 }
 
@@ -275,12 +274,12 @@ h1.footer-lead {
   }
 
   .btn-circle {
-    width: 46px;
-    height: 46px;
     border: 2px solid #2aa221;
     border-radius: 35px;
     font-size: 12px;
+    height: 46px;
     text-align: center;
+    width: 46px;
   }
 
   .mobile-chair {
@@ -304,24 +303,28 @@ h1.footer-lead {
   #navbar-styling li {
     display: block;
     float: left;
-    text-align: center;
-    width: 20%;
     height: 34px;
+    text-align: center;
     transition: all ease-in-out 0.2s;
+    width: 20%;
   }
 
   #navbar-styling a {
+    color: white;
     display: block;
     float: left;
-    color: white;
-    width: 100%;
-    padding: 0 0.5em;
     line-height: 10px;
+    padding: 0 0.5em;
     text-decoration: none;
+    width: 100%;
   }
 
   #navbar-styling li:hover {
     border-bottom: 5px solid #2aa221;
+  }
+    
+  .lock-icon {
+     display: none;   
   }
 
   .mobile-chair {
